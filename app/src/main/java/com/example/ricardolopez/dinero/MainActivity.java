@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         final EditText textFinal = (EditText) findViewById(R.id.lparts);
 
         final Spinner barra = (Spinner) findViewById(R.id.spinner);
-        String [] categor = {"Pre-benajín","Benajín","Alevín","Infantil","Cadete","Juvenil","4a. Catalana","3a. Catalana","2a. Catalana"};
+        String [] categor = {"Pre-benajín","Benajín","Alevín","Infantil","Cadete","Juvenil","4a. Catalana","3a. Catalana","2a. Catalana","1a Catalana"};
         barra.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item,categor));
 
         final arbitrajes a = new arbitrajes();
